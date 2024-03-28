@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMILA homepage</title>
+
+  <link rel="stylesheet" href="./index.css">
+  <script src="./main.js" defer></script>
+
+  <style>
+    .header-button.trans .line1 {
+      transform-origin: top left;
+      transform: rotate(45deg) translateY(-2px);
+    }
+
+    .header-button.trans .line2 {
+      opacity: 0;
+    }
+
+    .header-button.trans .line3 {
+      transform: rotate(-45deg);
+      transform-origin: top left;
+    }
+
+    .show {
+      opacity: 1;
+      pointer-events: all;
+    }
+  </style>
+</head>
+
+<body id="guide">
+  <header>
+    <div class="header-inner">
+      <h1>
+        <img class="header-logo" src="./imges/logo/アセット 1.svg" alt="ロゴの画像">
+      </h1>
+      <button class="header-button">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+      </button>
+      <div class="overlay">
+        <nav>
+          <ul class="nav-list">
+            <li>Concept</li>
+            <li>Style</li>
+            <li>Menu</li>
+            <li>Shop Data</li>
+            <li>web予約</li>
+            <li>Tel 000-0000</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-title-wrapper">
+        <h2 class="hero-title">Stylish hair salon</h2>
+        <h2 class="shop-name">SMILA.</h2>
+      </div>
+      <div class="hero-img-wrapper">
+        <img class="hero-img"
+          src="./imges/create-beautiful-hairstyle-with-curling-iron-woman-with-long-curly-hair-use-curling-iron-hairdresser-tips-heat-setting-for-hair-type-girl-adorable-blonde-hold-curling-iron-gorgeous-hairstyle.jpg"
+          alt="ヒーロー画像">
+      </div>
+      <div class="scissors-wrapper">
+        <img src="./imges/SVG/アセット 1.svg" alt="ハサミ画像">
+      </div>
+    </section>
+    <section class="concept">
+      <div class="concept-img-wrapper">
+        <div class="concept-text-wrapper">
+          <h2 class="concept-title">Concept</h2>
+          <p class="concept-description">
+            SMILAは<br>
+            お客様と一緒に理想のスタイルを作り上<br>
+            げることを目標にした、<br>
+            スタイリッシュサロンです。<br>
+            <br>
+            丁寧なカウンセリングで、<br>
+            好みのスタイリングとお客様にぴったり<br>
+            の髪型をご提案いたします。<br>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Stylesセクション -->
+    <section class="styles">
+      <div class="container">
+        <h2 class="section-title">Styles</h2>
+        <ul class="style-list">
+          <li class="style">
+            <img src="./imges/hairstyles/dark-skin1.jpg" alt="スタイル画像">
+          </li>
+          <li class="style">
+            <img src="./imges/hairstyles/dark-skin2.jpg" alt="スタイル画像">
+          </li>
+          <li class="style">
+            <img src="./imges/hairstyles/dark-skin3.jpg" alt="スタイル画像">
+          </li>
+          <li class="style">
+            <img src="./imges/hairstyles/istockphoto.jpg" alt="スタイル画像">
+          </li>
+          <li class="style">
+            <img src="./imges/hairstyles/pink-hair.jpg" alt="スタイル画像">
+          </li>
+          <li class="style">
+            <img src="./imges/hairstyles/smiling-girl.jpg" alt="スタイル画像">
+          </li>
+          <li class="style">
+            <img src="./imges/hairstyles/woman-treatment.jpg" alt="スタイル画像">
+          </li>
+          <li class="style">
+            <img src="./imges/hairstyles/young-woman.jpg" alt="スタイル画像">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="menu">
+      <div class="container">
+        <h2 class="section-title">Menu</h2>
+        <div class="flex-box">
+          <div class="menu-wrapper">
+            <h3 class="menu-title">cut</h3>
+            <ul class="menu-list">
+              <li class="list">
+                <p>レディースカット</p>
+                <p class="money">¥4,400</p>
+              </li>
+              <li class="list">
+                <p>前髪カット</p>
+                <p class="money">¥1,500</p>
+              </li>
+              <li class="list">
+                <p>メンズカット</p>
+                <p class="money">¥4,400</p>
+              </li>
+              <li class="list">
+                <p>学生カット</p>
+                <p class="money">¥3,000</p>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-wrapper">
+            <h3 class="menu-title">color</h3>
+            <ul class="menu-list">
+              <li class="list">
+                <p>ブリーチ</p>
+                <p class="money">¥7,000</p>
+              </li>
+              <li class="list">
+                <p>ウィービング</p>
+                <p class="money">7,700</p>
+              </li>
+              <li class="list">
+                <p>グラデーション</p>
+                <p class="money">¥1,1000</p>
+              </li>
+              <li class="list">
+                <p>シングルカラー</p>
+                <p class="money">¥6,000</p>
+              </li>
+              <li class="list">
+                <p>リタッチ</p>
+                <p class="money">¥5,000</p>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-wrapper">
+            <h3 class="menu-title">perm</h3>
+            <ul class="menu-list">
+              <li class="list">
+                <p>水パーマ</p>
+                <p class="money">¥5,000</p>
+              </li>
+              <li class="list">
+                <p>コスメパーマ</p>
+                <p class="money">¥6,000</p>
+              </li>
+              <li class="list">
+                <p>クリープパーマ</p>
+                <p class="money">¥5,500</p>
+              </li>
+              <li class="list">
+                <p>デジタルパーマ</p>
+                <p class="money">¥6,500</p>
+              </li>
+            </ul>
+
+          </div>
+          <div class="menu-wrapper">
+            <h3 class="menu-title">spa</h3>
+            <ul class="menu-list">
+              <li class="list">
+                <p>ライト</p>
+                <p class="money">¥1,500</p>
+              </li>
+              <li class="list">
+                <p>スタンダード</p>
+                <p class="money">¥2,500</p>
+              </li>
+              <li class="list">
+                <p>プレミアム</p>
+                <p class="money">¥3,500</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="button-wrapper">
+          <a class="reservation" href="#">Web予約</a>
+        </div>
+      </div>
+    </section>
+    <section class="shop-data">
+      <h2 class="section-title">Shop date</h2>
+      <div class="data-wrapper">
+        <iframe class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6670908.539296416!2d133.28085624585998!3d35.27417499844294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c0d02d8064d%3A0xd11a5f0b379e6db7!2sImperial%20Palace!5e0!3m2!1sen!2sjp!4v1664450010135!5m2!1sen!2sjp"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <div class="shop-info">
+          <dl class="info-wrapper">
+            <dt class="info-title">Address</dt>
+            <dd class="info-description">〒〇〇-〇〇〇<br>東京都〇〇区〇〇〇-〇</dd>
+          </dl>
+          <dl class="info-wrapper">
+            <dt class="info-title">Open</dt>
+            <dd class="info-description">9:00 ~ 21:00 (平日、休日)</dd>
+          </dl>
+          <dl class="info-wrapper">
+            <dt class="info-title">Close</dt>
+            <dd class="info-description">火曜日、祝日</dd>
+          </dl>
+          <dl class="info-wrapper">
+            <dt class="info-title">Tel</dt>
+            <dd class="info-description">〇〇〇-〇〇〇〇</dd>
+          </dl>
+          <dl class="info-wrapper">
+            <dt class="info-title">Email</dt>
+            <dd class="info-description">SMILA@tmail.com</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <img class="footer-logo" src="./imges/logo/OBJECTS.svg" alt="フッターロゴ">
+      <div class="sns-icons">
+        <img src="./imges/sns_icons/SVG/facebook_2.svg" alt="facebookアイコン">
+        <img src="./imges/sns_icons/SVG/twitter_2.svg" alt="twitterアイコン">
+        <img src="./imges/sns_icons/SVG/instagram_2.svg" alt="instagramアイコン">
+      </div>
+      <p class="copyright">©Shin.design All Rights Reaserved</p>
+    </div>
+
+  </footer>
+</body>
+
+</html>
